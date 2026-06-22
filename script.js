@@ -14,11 +14,11 @@ function jealous() {
 }
 
 function angry() {
-    document.getElementById("message").textContent = "Angry mode activated";
+    document.getElementById("message").textContent = "Angry mode activated >:(";
     document.getElementById("page").style.background = "#c11818";
 }
 
 function anxious() {
-    document.getElementById("message").textContent = "Anxious mode activated";
+    document.getElementById("message").textContent = "Anxious mode activated!";
     document.getElementById("page").style.background = "#e43b95";
 }
