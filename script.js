@@ -4,7 +4,7 @@ function happy() {
 }
 
 function sad() {
-    document.getElementById("message").textContent = "Sad mode activated. :,C";
+    document.getElementById("message").textContent = "Sad mode activated... D`:";
     document.getElementById("page").style.background = "#0e14b0";
 }
 
