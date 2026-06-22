@@ -4,12 +4,12 @@ function happy() {
 }
 
 function sad() {
-    document.getElementById("message").textContent = "Sad mode activated... <:,(";
+    document.getElementById("message").textContent = "Sad mode activated. :,C";
     document.getElementById("page").style.background = "#0e14b0";
 }
 
 function jealous() {
-    document.getElementById("message").textContent = "Jealous mode activated ):T";
+    document.getElementById("message").textContent = "Jealous mode activated... ):T";
     document.getElementById("page").style.background = "#0f922e";
 }
 
