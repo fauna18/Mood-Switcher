@@ -9,7 +9,7 @@ function sad() {
 }
 
 function jealous() {
-    document.getElementById("message").textContent = "Jealous mode activated. ):T";
+    document.getElementById("message").textContent = "Jealous mode activated ):T";
     document.getElementById("page").style.background = "#0f922e";
 }
 
