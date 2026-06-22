@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   .box {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    animation: spinmove 5s ease-in-out infinite alternate;
+   }
+ 
+ 
+   @keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+   }
+ 
+ 
+   @keyframes move {
+    from {
+        transform: translateX(-100px);
+    }
+ 
+ 
+    to {
+        transform: translateX(600px);
+    }
+   }
+ 
+ 
+   @keyframes spinmove {
+    from {
+        transform: translateX(-250px) rotate(0deg); 
+    }
+ 
+ 
+    to {
+        transform: translateX(1000px) rotate(360deg);
+    }
+   }
+ 
+ 
+   @keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0;
+        
+    }
+    50% {
+        background-color: aqua;
+        box-shadow: 0 0 0 2px;
+    }
+ 
+ 
+    100% {
+        box-shadow: 0 0 0 5px;
+    }
+   }
+ 
+ 
+   .square {
+   
+    background-color: rgb(25, 25, 56);
+    animation: ripple 1.9s ease-out infinite alternate;
+   }
+ 
+ 
+   
+</style>
+</head>
+<body>
+  <div class="box"></div>
+  <button class="square">Click HERE</button>
+ 
+ 
+</body>
+</html>
